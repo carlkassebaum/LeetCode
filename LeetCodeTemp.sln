@@ -47,7 +47,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhereWillTheBallFall", "Whe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinHeightShelves", "MinHeightShelves\MinHeightShelves.csproj", "{95EF8691-BA07-4438-89AC-EC8D74A7B8A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticSlices", "ArithmeticSlices\ArithmeticSlices.csproj", "{03119AE9-8DBA-4DB7-A79D-E35A1FC6A9E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArithmeticSlices", "ArithmeticSlices\ArithmeticSlices.csproj", "{03119AE9-8DBA-4DB7-A79D-E35A1FC6A9E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{739397FB-F438-47AC-AD06-0271786DA798}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{590F2BBD-8E2D-4761-A322-3B694CBDC00A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountSortedVowelStrings", "CountSortedVowelStrings\CountSortedVowelStrings.csproj", "{7943D382-2F9D-42AD-AE1E-FCDDC96418C3}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "UniquePaths", "UniquePaths\UniquePaths.pyproj", "{C0C5B89C-91EC-4F3B-B071-25781A67B4DD}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "UniquePathsII", "UniquePathsII\UniquePathsII.pyproj", "{C9F9EA90-617C-4C3A-94F1-23A7B85E2984}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "UniquePathsIII", "UniquePathsIII\UniquePathsIII.pyproj", "{47E27C94-0ECB-4D32-B3AB-351AE5927136}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,9 +159,26 @@ Global
 		{03119AE9-8DBA-4DB7-A79D-E35A1FC6A9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03119AE9-8DBA-4DB7-A79D-E35A1FC6A9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03119AE9-8DBA-4DB7-A79D-E35A1FC6A9E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{590F2BBD-8E2D-4761-A322-3B694CBDC00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590F2BBD-8E2D-4761-A322-3B694CBDC00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590F2BBD-8E2D-4761-A322-3B694CBDC00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590F2BBD-8E2D-4761-A322-3B694CBDC00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7943D382-2F9D-42AD-AE1E-FCDDC96418C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7943D382-2F9D-42AD-AE1E-FCDDC96418C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7943D382-2F9D-42AD-AE1E-FCDDC96418C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7943D382-2F9D-42AD-AE1E-FCDDC96418C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C5B89C-91EC-4F3B-B071-25781A67B4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C5B89C-91EC-4F3B-B071-25781A67B4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F9EA90-617C-4C3A-94F1-23A7B85E2984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F9EA90-617C-4C3A-94F1-23A7B85E2984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E27C94-0ECB-4D32-B3AB-351AE5927136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E27C94-0ECB-4D32-B3AB-351AE5927136}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{590F2BBD-8E2D-4761-A322-3B694CBDC00A} = {739397FB-F438-47AC-AD06-0271786DA798}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8BC218A-0FD9-4538-AF15-5FC449524CC6}
